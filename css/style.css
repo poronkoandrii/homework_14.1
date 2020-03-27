@@ -287,6 +287,11 @@ ul {
   vertical-align: middle;
 }
 
+.our-team__profile--biography-social .fab:hover {
+  color: #fff;
+  background-color: #ccc;
+}
+
 .our-team__profile--biography-about {
   font-size: 14px;
   max-width: 422px;
@@ -353,6 +358,7 @@ ul {
           transform: rotate(-45deg) translateY(-50%);
   left: 12px;
   top: 50%;
+  cursor: pointer;
 }
 
 .our-team__profile--control-right {
@@ -365,6 +371,7 @@ ul {
           transform: rotate(45deg) translateY(-50%);
   right: 12px;
   top: 50%;
+  cursor: pointer;
 }
 
 .our-team__profile--radio {

@@ -164,6 +164,11 @@
           text-align: center;
           line-height: 28px;
           vertical-align: middle;
+
+          &:hover {
+            color: #fff;
+            background-color: #ccc;
+          }
         }
       }
 
@@ -230,6 +235,7 @@
       transform: rotate(-45deg) translateY(-50%);
       left: 12px;
       top: 50%;
+      cursor: pointer;
     }
     &--control-right {
       position: absolute;
@@ -240,6 +246,7 @@
       transform: rotate(45deg) translateY(-50%);
       right: 12px;
       top: 50%;
+      cursor: pointer;
     }
     &--radio {
       position: absolute;
